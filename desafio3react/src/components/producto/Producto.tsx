@@ -1,4 +1,3 @@
-import react from "react"
 
 interface Props{
     id: number;
@@ -6,7 +5,7 @@ interface Props{
     price: string
 }
 
-const Producto=((id,name,price):Props) =>{
+const Producto=({id,name,price}:Props) =>{
     return (
         <div key={id} className="row border border-dark">
             <div className="col-2">{id}</div>
