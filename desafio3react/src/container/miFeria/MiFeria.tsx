@@ -4,6 +4,7 @@ import Producto from "../../components/producto/Producto";
 const products = [
   { id: 1, name: "papaya", price: "100" },
   { id: 2, name: "palta", price: "50" },
+  { id: 2, name: "kiwi", price: "70" },
 ];
 const handlerOnAdd = (newProducto: any) => {
   setProductos([...productos, newProducto]);
