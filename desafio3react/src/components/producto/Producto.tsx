@@ -12,6 +12,7 @@ const Producto=({id,name,price}:Props) =>{
             <div className="col-2">{name}</div>
             <div className="col-2">{price}</div>
             </div>
+            
     )
 }
 
